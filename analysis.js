@@ -2,7 +2,6 @@ var esprima = require("esprima");
 var options = {tokens:true, tolerant: true, loc: true, range: true };
 var fs = require("fs");
 
-var navjot = 1;
 function main()
 {
 	var args = process.argv.slice(2);
@@ -24,17 +23,6 @@ function main()
 	}
 
 }
-
-function navi(){
-	if(navjot == 1 && true)
-		if(true)
-		return true;
-	return true;
-}
-
-if(navjot <3)
-	console.log('hello');
-
 
 var builders = {};
 
