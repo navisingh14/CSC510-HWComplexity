@@ -188,6 +188,7 @@ function complexity(filePath)
 		
 		if (node.type === 'IfStatement')
 		{	
+			fileBuilder.AllConditions++;
 			if (node.test){
 				traverseWithParents(node.test, function(cond){
 					//console.log(node);
